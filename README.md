@@ -45,23 +45,25 @@ contract ErrorHandling {
 }
 
 ```
+## Video walkthrough
 
+https://www.loom.com/share/2d3dfc535ebd45d898779dd929004f84?sid=0add0fa6-7571-482e-9e7f-568e74671b28
 
-##  require() 
+###  require() 
 The require() statement validates if a certain condition is met, if not it reverts the transaction.
 * Here I am using require() to check if the input _num is greater than 10.
 
-## assert()
+### assert()
 
 The assert() statement tests for a condition, if false it causes an invalid opcode and reverts. 
 * Here I assert that num is greater than 10.
 
-## revert()
+### revert()
 
 The revert() statement is used to manually revert a transaction and provide an error message.
 * Here I simply revert with a custom error message.
 
-### Summary
+#### Summary
 
    * require() validates conditions and reverts if false
    * assert() tests for conditions and reverts if false
